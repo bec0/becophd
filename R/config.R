@@ -37,6 +37,6 @@ DefaultTestConfigs <- function() {
     listlearningtask = c("recallScore", "delayedRecallScore"),
     probabilisticsrt_ro = c("propCorrect_seqA", "meanCorrRT_seqA", "propCorrect_seqB", "meanCorrRT_seqB"),
     prospectivememorytask_versiona = c("Hit", "Miss", "FA", "CR"),
-    sart = c("z_goRT", "z_CV")
+    sart = c("nr_commissions", "z_commission", "meanRT_go", "stdRT_go", "z_goRT", "CV_go", "z_CV", "count_anticipatory", "zAnticipatoryResponses", "nr_omissions", "z_Omission")
   )
 }
