@@ -33,8 +33,8 @@ Config <- function(
 
 DefaultTestConfigs <- function() {
   columns <- list(
-    digitspanvisual = c("bML", "fML"),
-    listlearningtask = c("recallScore", "delayedRecallScore"),
+    digitspanvisual = c("fML", "bML"),
+    listlearningtask = c("recallScore", "delayedRecallScore", "recognitionScore"),
     probabilisticsrt_ro = c("propCorrect_seqA", "meanCorrRT_seqA", "propCorrect_seqB", "meanCorrRT_seqB"),
     prospectivememorytask_versiona = c("Hit", "Miss", "FA", "CR"),
     sart = c("nr_commissions", "z_commission", "meanRT_go", "stdRT_go", "z_goRT", "CV_go", "z_CV", "count_anticipatory", "zAnticipatoryResponses", "nr_omissions", "z_Omission")
